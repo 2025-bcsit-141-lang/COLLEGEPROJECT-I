@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.video-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+
+      /* overflow hidden haleko so in future if postion absolute garnu paryo vne i will not have any problem in video  */
+   overflow: hidden;
+
+}
+.video-background video{
+    width: 100%;
+    height: 100%;
+
+    /*streching veirako thiyena video ko so milne gari screen ma aatako object fituse garera*/
+    object-fit: cover;
+    
+    
+
+}
